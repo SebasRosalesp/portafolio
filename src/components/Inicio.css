@@ -1,0 +1,135 @@
+@-webkit-keyframes pulsate-bck {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes pulsate-bck {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+.layout{
+    position: absolute;
+    top: 13rem;
+    background: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.pSection{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    width: 95%;
+    height: auto;
+    border: 5px solid #cc5411;
+    flex-wrap: wrap;
+}
+.bienvenida{
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 5px;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+.cvContainer{
+    width: 18rem;
+    height: 5rem;
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    
+}
+.bajarB{
+    border: none;
+    color: #ffff;
+    display: flex;
+    background: none;
+    align-items: center;
+    -webkit-animation: pulsate-bck 0.5s ease-in-out 3 both;
+	animation: pulsate-bck 0.5s ease-in-out 5 both;
+}
+
+.bajarI{
+    padding-right: 5px;
+    width: 3rem;
+    height: 3rem;
+}
+.technologies{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tImg div{
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-inline: 3rem;
+}
+.tImg div img{
+    width: 3rem;
+    height: 3rem;
+}
+.tecno{
+  display: flex;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1000px ){
+  .technologies{
+    flex-direction: column;
+  }
+}
