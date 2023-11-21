@@ -11,7 +11,7 @@ const Inicio = () =>{
                     <p>Bienvenid@ a mi portafolio, espero que disfrutes el contenido.</p>
                 </div>
                 <div className="cvContainer">
-                <button className="bajarB"><img className="bajarI" src="/src/assets/Bajar.png" alt="bajar"/>Descarga mi CV</button>
+                <a className="bajarA" href="/files/Professional CV Resume.pdf"> <button className="bajarB"><img className="bajarI" src="/src/assets/Bajar.png" alt="bajar"/> Descarga mi CV</button></a>
                 </div>
                </div>
                <div className="tecno"><p className="tecnoText">Tecnologías que domino</p></div>

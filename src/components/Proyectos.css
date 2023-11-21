@@ -1,6 +1,6 @@
 .proyectContainer{
     position: absolute;
-    top: 10rem;
+    top: 9rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -16,7 +16,11 @@
     flex-wrap: wrap;
     width: fit-content;
     height: fit-content;
-    border: none;
+    margin-inline-start: 5px;
+    background-color: rgb(168, 170, 171);
+    font-size: 20px;
+    border-radius: 15px;
+    border: 3px solid rgb(168, 170, 171);
 }
 @media only screen and (max-width:1000px){
     .proyect{
@@ -27,27 +31,26 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    object-fit: contain;
+    color: rgb(233, 165, 20);
+    text-shadow: black  1px 0px;
+    font-size: 24px;
+    font-weight: bold;
+
 }
 
 .proyect a img{
     width: 20rem;
     height: auto;
+    padding-top: 10px;
     object-fit: contain;
-}
-.delay{
-    position: relative;
-    transition-delay: 1s;
+    border: none;
+    margin: 0 auto;
 }
 .delay p{
+    background-color: rgb(221, 221, 221);
     opacity: 1;
     width: 20rem;
     transition: .3s;
-}
-.proyect:hover .delay{
-    position: relative;
-    transition-delay: .2s;
-}
-.proyect:hover .delay p{
-    opacity: 1;
-    transition: .3s;
+    padding: 10px;
 }
