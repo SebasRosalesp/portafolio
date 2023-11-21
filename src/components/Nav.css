@@ -28,7 +28,7 @@
 .linkB{
     text-decoration: none;
 }
-.linkB button{
+.linkB button, .linkB button:focus{
     background-color:#ed6c23;
     color: #111111;
     width: min-content;
@@ -37,6 +37,7 @@
     transition: .3s;
     border: none;
     margin-inline: 5px;
+    outline: none;
 }
 .linkB button:hover{
     font-size: 24px;
