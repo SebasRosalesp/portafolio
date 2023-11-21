@@ -78,25 +78,34 @@
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 .cvContainer{
-    width: 18rem;
-    height: 5rem;
-    background-color: #2a2a2a;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    border-radius: 5px;
-    
+  width: 18rem;
+  height: 5rem;
+  background-color: #2a2a2a;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 .bajarB{
-    border: none;
-    color: #ffff;
-    display: flex;
-    background: none;
-    align-items: center;
-    -webkit-animation: pulsate-bck 0.5s ease-in-out 3 both;
+  border: none;
+  width: 100%;
+  display: flex;
+  background: none;
+  align-items: center;
+  -webkit-animation: pulsate-bck 0.5s ease-in-out 3 both;
 	animation: pulsate-bck 0.5s ease-in-out 5 both;
 }
-
+.bajarA:link ,.bajarA:visited, .bajarA:active, .bajarA:focus{
+  text-decoration: none;
+  color: #ffff;
+}
+.bajarB{
+  color: #ffff;
+  text-decoration: none;
+}
+.bajarB:hover{
+  color: #b7b1b1;
+}
 .bajarI{
     padding-right: 5px;
     width: 3rem;
@@ -123,6 +132,7 @@
 .tImg div img{
     width: 3rem;
     height: 3rem;
+    padding-right: 1rem;
 }
 .tecno{
   display: flex;
