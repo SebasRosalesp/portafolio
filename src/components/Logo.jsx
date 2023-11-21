@@ -3,8 +3,8 @@ import './Logo.css'
 const Logo = ()=>{
     return(
         <div className="header">
-            <img alt="Logo" className="logo" src="/src/assets/Logo.png"/>
-        <img alt="Foto" className="foto" src="/src/assets/Foto.jpg"/>
+            <img alt="Logo" className="logo" src="/public/assets/Logo.png"/>
+        <img alt="Foto" className="foto" src="/public/assets/Foto.jpg"/>
         </div>
     )
 }

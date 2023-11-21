@@ -21,10 +21,10 @@ const Resumen = ()=>{
                 <div className="contacto">
                     <h1>Contacto</h1>
                     <ul>
-                        <li> <img alt="telefono" src="/src/assets/llamada-telefonica.png"/> Teléfono<span><a href="tel:+50684322292">+50684322292</a></span></li>
+                        <li> <img alt="telefono" src="/public/assets/llamada-telefonica.png"/> Teléfono<span><a href="tel:+50684322292">+50684322292</a></span></li>
                         
-                        <li><img src='/src/assets/logotipo-de-linkedin.png'alt="LinkedIn"/><span>LinkedIn </span><a href="www.linkedin.com/in/sebastián-rosales-parra-9b901420b">Sebastián Rosales Parra</a></li>
-                        <li><img alt="email"src="/src/assets/email.png"/> E-mail<span><a href="mailto:sebas.front.dev@gmail.com">sebas.front.dev@gmail.com</a></span></li>
+                        <li><img src='/public/assets/logotipo-de-linkedin.png'alt="LinkedIn"/><span>LinkedIn </span><a href="www.linkedin.com/in/sebastián-rosales-parra-9b901420b">Sebastián Rosales Parra</a></li>
+                        <li><img alt="email"src="/public/assets/email.png"/> E-mail<span><a href="mailto:sebas.front.dev@gmail.com">sebas.front.dev@gmail.com</a></span></li>
                     </ul>
                 </div>
             </div>
