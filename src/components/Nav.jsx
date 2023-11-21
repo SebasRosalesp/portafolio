@@ -13,7 +13,7 @@ const Nav = ()=>{
             <Link className="linkB" to={"Proyectos"}>
                 <button>Proyectos</button>
             </Link>
-            <Link className="linkB" to={"Resumen"}>
+            <Link className="linkB" to={'Resumen'}>
                 <button>Resumen</button>
             </Link>
         </div>
