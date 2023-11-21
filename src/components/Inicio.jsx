@@ -13,6 +13,7 @@ const Inicio = () =>{
                 <div className="cvContainer">
                 <a className="bajarA" href="/files/Professional CV Resume.pdf"> <button className="bajarB"><img className="bajarI" src="src/components/assets/Bajar.png" alt="bajar"/> Descarga mi CV</button></a>
                 </div>
+                
                </div>
                <div className="tecno"><p className="tecnoText">Tecnologías que domino</p></div>
                 <div className="technologies">
