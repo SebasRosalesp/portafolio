@@ -30,7 +30,7 @@ const Inicio = () =>{
                         <div><img alt="react" src="https://i.imgur.com/XEgez6z.png"/>React</div>
                     </div>
                     <div className="vite tImg">
-                        <div><img alt="vite" src="/src/components/assets/vite-js-log.svg/"/>Vite</div>
+                        <div><img alt="vite" src="https://i.imgur.com/qlhVrYP.png"/>Vite</div>
                     </div>
                     
                 </div>
