@@ -1,0 +1,53 @@
+.proyectContainer{
+    position: absolute;
+    top: 10rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5rem;
+}
+.proyect{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+}
+@media only screen and (max-width:1000px){
+    .proyect{
+        margin: 0 auto;
+    }
+}
+.proyect a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.proyect a img{
+    width: 20rem;
+    height: auto;
+    object-fit: contain;
+}
+.delay{
+    position: relative;
+    transition-delay: 1s;
+}
+.delay p{
+    opacity: 1;
+    width: 20rem;
+    transition: .3s;
+}
+.proyect:hover .delay{
+    position: relative;
+    transition-delay: .2s;
+}
+.proyect:hover .delay p{
+    opacity: 1;
+    transition: .3s;
+}
