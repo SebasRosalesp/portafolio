@@ -32,11 +32,13 @@
     flex-direction: column;
     text-align: center;
     object-fit: contain;
-    color: rgb(233, 165, 20);
+    color: rgb(233, 123, 20);
     text-shadow: black  1px 0px;
     font-size: 24px;
     font-weight: bold;
-
+}
+.proyect a:hover{
+    color:rgb(211, 109, 14);
 }
 
 .proyect a img{
@@ -49,8 +51,6 @@
 }
 .delay p{
     background-color: rgb(221, 221, 221);
-    opacity: 1;
     width: 20rem;
-    transition: .3s;
     padding: 10px;
 }

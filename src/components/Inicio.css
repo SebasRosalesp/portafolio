@@ -67,7 +67,7 @@
     display: flex;
     width: 95%;
     height: auto;
-    border: 5px solid #cc5411;
+    border: 2px solid #cc5411;
     flex-wrap: wrap;
 }
 .bienvenida{
@@ -88,20 +88,22 @@
 }
 .bajarB{
   border: none;
-  width: 100%;
+  width: auto;
   display: flex;
   background: none;
   align-items: center;
-  -webkit-animation: pulsate-bck 0.5s ease-in-out 3 both;
-	animation: pulsate-bck 0.5s ease-in-out 5 both;
+  color: #ffff;
+  text-decoration: none;
+}
+.bajarB:focus{
+  outline: none;
 }
 .bajarA:link ,.bajarA:visited, .bajarA:active, .bajarA:focus{
+  outline: none;
+  -webkit-animation: pulsate-bck 0.5s ease-in-out 3 both;
+	animation: pulsate-bck 0.5s ease-in-out 5 both;
   text-decoration: none;
   color: #ffff;
-}
-.bajarB{
-  color: #ffff;
-  text-decoration: none;
 }
 .bajarB:hover{
   color: #b7b1b1;
